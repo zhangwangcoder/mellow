@@ -295,7 +295,7 @@ const trayIcon = {
         if (isDarkMode()) {
           return path.join(__dirname, 'assets/tray-off-icon-light.png')
         } else {
-          return path.join(__dirname, 'assets/tray-off-icon.png')
+          return path.join(__dirname, 'assets/tray-off-icon--test.png')
         }
       case 'win32':
         return path.join(__dirname, 'assets/tray-off-icon-green.png')
