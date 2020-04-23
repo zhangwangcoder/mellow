@@ -298,7 +298,7 @@ const trayIcon = {
           return path.join(__dirname, 'assets/tray-off-icon.png')
         }
       case 'win32':
-        return path.join(__dirname, 'assets/tray-off-icon.png')
+        return path.join(__dirname, 'assets/tray-off-icon-green.png')
     }
   }
 }
